@@ -1,0 +1,516 @@
+{
+  "experiment": "SGIT_HGFT_E18_R0_LITERAL_MATCHED_REPLICATION",
+  "version": "1.0",
+  "date_frozen": "2026-09-05",
+  "status": "LITERAL_MATCHED_REPLICATION_PROTOCOL_FROZEN_BEFORE_ANY_E18_EEG_HEADER_OR_SAMPLE_ACCESS",
+  "scientific_role": {
+    "confirmatory_literal_replication": true,
+    "reason": "E18-A2R1 found 35 untouched LARGE-session subjects with >=25 PAS1 and >=25 PAS2 critical trials and matching BDF filenames. The neural outcome remains unopened.",
+    "EEG_headers_opened_before_freeze": false,
+    "EEG_samples_opened_before_freeze": false
+  },
+  "parent_feasibility": {
+    "A2R1_result_sha256": "e6124a9c2d28d02f4e2d552f8da73085cd2c22ab8b956b2521e8f36644e37b5e",
+    "status": "E18_A2R1_MATCHED_REPLICATION_BEHAVIORALLY_FEASIBLE",
+    "behaviorally_eligible_subjects": 35,
+    "published_large_N_background_only": 24
+  },
+  "dataset": {
+    "article_id": 5418967,
+    "dataset_doi": "10.17045/STHLMUNI.5418967",
+    "paper_doi": "10.3758/s13415-018-0562-z",
+    "session": "LARGE Gabor only",
+    "frozen_candidates": [
+      {
+        "subject": 1,
+        "large_session": 2,
+        "PAS1": 184,
+        "PAS2": 213,
+        "PAS3": 3,
+        "critical_total": 400
+      },
+      {
+        "subject": 2,
+        "large_session": 1,
+        "PAS1": 195,
+        "PAS2": 160,
+        "PAS3": 45,
+        "critical_total": 400
+      },
+      {
+        "subject": 3,
+        "large_session": 2,
+        "PAS1": 179,
+        "PAS2": 221,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 4,
+        "large_session": 2,
+        "PAS1": 287,
+        "PAS2": 89,
+        "PAS3": 24,
+        "critical_total": 400
+      },
+      {
+        "subject": 5,
+        "large_session": 1,
+        "PAS1": 260,
+        "PAS2": 140,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 6,
+        "large_session": 2,
+        "PAS1": 165,
+        "PAS2": 235,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 7,
+        "large_session": 1,
+        "PAS1": 167,
+        "PAS2": 232,
+        "PAS3": 1,
+        "critical_total": 400
+      },
+      {
+        "subject": 8,
+        "large_session": 2,
+        "PAS1": 26,
+        "PAS2": 309,
+        "PAS3": 65,
+        "critical_total": 400
+      },
+      {
+        "subject": 9,
+        "large_session": 1,
+        "PAS1": 219,
+        "PAS2": 156,
+        "PAS3": 25,
+        "critical_total": 400
+      },
+      {
+        "subject": 10,
+        "large_session": 1,
+        "PAS1": 223,
+        "PAS2": 163,
+        "PAS3": 14,
+        "critical_total": 400
+      },
+      {
+        "subject": 11,
+        "large_session": 2,
+        "PAS1": 188,
+        "PAS2": 207,
+        "PAS3": 5,
+        "critical_total": 400
+      },
+      {
+        "subject": 12,
+        "large_session": 2,
+        "PAS1": 198,
+        "PAS2": 200,
+        "PAS3": 2,
+        "critical_total": 400
+      },
+      {
+        "subject": 13,
+        "large_session": 1,
+        "PAS1": 236,
+        "PAS2": 164,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 14,
+        "large_session": 2,
+        "PAS1": 323,
+        "PAS2": 75,
+        "PAS3": 2,
+        "critical_total": 400
+      },
+      {
+        "subject": 15,
+        "large_session": 2,
+        "PAS1": 151,
+        "PAS2": 249,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 16,
+        "large_session": 1,
+        "PAS1": 224,
+        "PAS2": 172,
+        "PAS3": 4,
+        "critical_total": 400
+      },
+      {
+        "subject": 17,
+        "large_session": 1,
+        "PAS1": 184,
+        "PAS2": 201,
+        "PAS3": 15,
+        "critical_total": 400
+      },
+      {
+        "subject": 18,
+        "large_session": 2,
+        "PAS1": 236,
+        "PAS2": 164,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 19,
+        "large_session": 2,
+        "PAS1": 160,
+        "PAS2": 240,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 20,
+        "large_session": 1,
+        "PAS1": 239,
+        "PAS2": 160,
+        "PAS3": 1,
+        "critical_total": 400
+      },
+      {
+        "subject": 21,
+        "large_session": 1,
+        "PAS1": 225,
+        "PAS2": 172,
+        "PAS3": 3,
+        "critical_total": 400
+      },
+      {
+        "subject": 22,
+        "large_session": 2,
+        "PAS1": 193,
+        "PAS2": 205,
+        "PAS3": 2,
+        "critical_total": 400
+      },
+      {
+        "subject": 23,
+        "large_session": 1,
+        "PAS1": 249,
+        "PAS2": 147,
+        "PAS3": 4,
+        "critical_total": 400
+      },
+      {
+        "subject": 24,
+        "large_session": 2,
+        "PAS1": 137,
+        "PAS2": 263,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 25,
+        "large_session": 1,
+        "PAS1": 205,
+        "PAS2": 151,
+        "PAS3": 44,
+        "critical_total": 400
+      },
+      {
+        "subject": 26,
+        "large_session": 1,
+        "PAS1": 154,
+        "PAS2": 246,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 27,
+        "large_session": 1,
+        "PAS1": 154,
+        "PAS2": 246,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 28,
+        "large_session": 2,
+        "PAS1": 235,
+        "PAS2": 165,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 29,
+        "large_session": 2,
+        "PAS1": 270,
+        "PAS2": 128,
+        "PAS3": 2,
+        "critical_total": 400
+      },
+      {
+        "subject": 30,
+        "large_session": 1,
+        "PAS1": 324,
+        "PAS2": 76,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 31,
+        "large_session": 2,
+        "PAS1": 215,
+        "PAS2": 185,
+        "PAS3": 0,
+        "critical_total": 400
+      },
+      {
+        "subject": 32,
+        "large_session": 2,
+        "PAS1": 169,
+        "PAS2": 228,
+        "PAS3": 3,
+        "critical_total": 400
+      },
+      {
+        "subject": 33,
+        "large_session": 2,
+        "PAS1": 175,
+        "PAS2": 214,
+        "PAS3": 11,
+        "critical_total": 400
+      },
+      {
+        "subject": 34,
+        "large_session": 1,
+        "PAS1": 208,
+        "PAS2": 157,
+        "PAS3": 35,
+        "critical_total": 400
+      },
+      {
+        "subject": 35,
+        "large_session": 1,
+        "PAS1": 227,
+        "PAS2": 172,
+        "PAS3": 1,
+        "critical_total": 400
+      }
+    ],
+    "n_frozen_candidates": 35,
+    "behavior_log_pattern": "txt/VAN_Exp_<subject>_<session>.txt",
+    "raw_bdf_pattern": "VAN_Exp_<subject>_<session>.bdf",
+    "official_final_preprocessed_pattern": "Fp<subject>s<session>_final.mat",
+    "primary_neural_source": "official final preprocessed individual FieldTrip data",
+    "raw_BDF_role": "header compatibility only unless final preprocessed member is technically unusable",
+    "raw_BDF_fallback_for_science": "FORBIDDEN unless separately pre-registered before any outcome"
+  },
+  "behavior": {
+    "critical_condition_codes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "UNSEEN": "PAS1 = Subj_resp 1",
+    "SEEN": "PAS2 = Subj_resp 2",
+    "PAS3": "excluded",
+    "minimum_primary_trials_per_label_after_official_neural_QC": 25,
+    "minimum_evaluable_subjects": 24,
+    "no_PAS2_PAS3_pooling": true,
+    "all_35_behaviorally_eligible_candidates_enter_neural_technical_QC": true
+  },
+  "official_preprocessing_adapter": {
+    "source": "official Eklund & Wiens 2018 FieldTrip final individual files",
+    "known_source_steps": [
+      "continuous 0.1-Hz fourth-order two-pass Butterworth high-pass",
+      "downsample to 250 Hz",
+      "epoch -0.1 to +0.6 s around photodiode-validated Gabor onset",
+      "bad-channel handling and interpolation",
+      "ICA blink-component removal",
+      "average reference",
+      "baseline correction -0.1 to 0 s",
+      "remaining excessive-artifact trials retained as NaN / excluded from analysis"
+    ],
+    "source_sampling_hz": 250.0,
+    "no_additional_filtering": true,
+    "no_additional_rereference": true,
+    "no_additional_interpolation": true,
+    "use_only_finite_officially_retained_trials": true,
+    "timing_anchor": "photodiode-derived Gabor onset from official preprocessing",
+    "note_on_sampling_difference": "HGFT-X2 discovery source was 256 Hz; E18 official final data are 250 Hz. The discrete relation remains one-sample lag as frozen in HGFT-X2. No resampling is allowed because that would introduce a new preprocessing degree of freedom."
+  },
+  "reference_geometry": {
+    "exact_HGFT_X2_complex_sha256": "ec54f49377b9a97427b46f10305e8995af5fb7d9628dbd17e7d6f915de3944b6",
+    "reference_channel_names": [
+      "Fp1",
+      "AF7",
+      "AF3",
+      "F1",
+      "F3",
+      "F5",
+      "F7",
+      "FT7",
+      "FC5",
+      "FC3",
+      "FC1",
+      "C1",
+      "C3",
+      "C5",
+      "T7",
+      "TP7",
+      "CP5",
+      "CP3",
+      "CP1",
+      "P1",
+      "P3",
+      "P5",
+      "P7",
+      "P9",
+      "PO7",
+      "PO3",
+      "O1",
+      "Iz",
+      "Oz",
+      "POz",
+      "Pz",
+      "CPz",
+      "Fpz",
+      "Fp2",
+      "AF8",
+      "AF4",
+      "AFz",
+      "Fz",
+      "F2",
+      "F4",
+      "F6",
+      "F8",
+      "FT8",
+      "FC6",
+      "FC4",
+      "FC2",
+      "FCz",
+      "Cz",
+      "C2",
+      "C4",
+      "C6",
+      "T8",
+      "TP8",
+      "CP6",
+      "CP4",
+      "CP2",
+      "P2",
+      "P4",
+      "P6",
+      "P8",
+      "P10",
+      "PO8",
+      "PO4",
+      "O2"
+    ],
+    "reference_channel_count": 64,
+    "exact_222_edges": true,
+    "exact_216_triangles": true,
+    "exact_curl_basis": true,
+    "exact_gradient_basis": true,
+    "exact_12_selected_curl_modes": true,
+    "exact_12_selected_gradient_modes": true,
+    "rebuild_graph_from_E18": "FORBIDDEN"
+  },
+  "relational_edge_signal": {
+    "unchanged_from_HGFT_X2": true,
+    "lag_samples": 1,
+    "formula": "f_ij(t) = [x_i(t-lag)x_j(t)-x_j(t-lag)x_i(t)] / [sqrt((x_i(t-lag)^2+x_i(t)^2)(x_j(t-lag)^2+x_j(t)^2))+eps]",
+    "edge_orientation": "exact frozen i<j reference-edge orientation"
+  },
+  "trajectory": {
+    "windows_s": {
+      "W1": [
+        0.08,
+        0.24
+      ],
+      "W2": [
+        0.24,
+        0.4
+      ],
+      "W3": [
+        0.4,
+        0.56
+      ]
+    },
+    "primary_curl_spectrum": "For each condition/window, mean squared coefficients of the 12 selected curl Hodge-GFT modes across retained primary trials and time samples.",
+    "normalization": "divide selected-mode energies by their sum; take sqrt(probability) for Hellinger geometry",
+    "trajectory_vector": "concatenate W1/W2/W3 sqrt-normalized curl spectra and unit-L2 normalize",
+    "gradient_control": "same construction in the 12 selected gradient modes"
+  },
+  "dataset_specific_label_blind_nuisance": {
+    "baseline_standardization": {
+      "window_s": [
+        -0.09,
+        0.0
+      ],
+      "fit": "within subject over all finite retained critical trials, label-blind",
+      "operation": "same per-sensor baseline mean/SD standardization as HGFT-X2"
+    },
+    "nuisance_design": [
+      "intercept",
+      "critical condition code 1-4 categorical one-hot (visual quadrant/condition control)",
+      "objective correctness if uniquely present in official trialinfo"
+    ],
+    "physical_stimulus_strength": "No awareness-dependent strength term is introduced; critical LARGE-session stimulus is individually threshold-calibrated within session.",
+    "fit": "all finite retained critical trials including PAS1/PAS2/PAS3, label-blind",
+    "operation": "per sensor x time regress nuisance design and keep residuals"
+  },
+  "primary_confirmatory_test": {
+    "conditions": {
+      "UNSEEN": "PAS1",
+      "SEEN": "PAS2"
+    },
+    "statistic": "exact symmetric two-condition LOSO cosine-template score on frozen Hodge-curl trajectory",
+    "group_statistic": "median subject curl-template score",
+    "permutation": "9999 within-subject swaps of PAS1/PAS2 trajectory vectors",
+    "permutation_draws": 9999,
+    "seed": 90520274,
+    "one_sided_alpha": 0.025,
+    "support_rule": [
+      "technical PASS",
+      "N_evaluable >= 24",
+      "median curl-template score > 0",
+      "subject-swap permutation p <= 0.025"
+    ],
+    "specificity_control": "same exact gradient trajectory, secondary only",
+    "secondary": [
+      "exact one-sided sign test",
+      "gradient-template score and swap p",
+      "curl/gradient/harmonic energy fractions by condition/window"
+    ]
+  },
+  "forbidden_posthoc_rescue": [
+    "PAS2+PAS3 pooling",
+    "small-Gabor substitution",
+    "selecting only published final N=24 after viewing HGFT outcome",
+    "selecting only objective-correct trials after viewing HGFT outcome",
+    "mode selection",
+    "edge selection",
+    "window selection",
+    "changing one-sample lag",
+    "resampling 250->256",
+    "changing Hodge complex",
+    "changing mode count",
+    "changing Hellinger normalization",
+    "changing LOSO statistic",
+    "changing alpha",
+    "lowering trial or subject gates"
+  ],
+  "interpretation": {
+    "if_supported": "Independent literal support that the frozen HGFT-X2 circulatory relational trajectory distinguishes PAS1 from PAS2 in a matched visual threshold dataset.",
+    "if_not_supported": "The exact HGFT-X2 matched visual-detection formulation does not independently replicate in Eklund & Wiens 2018 under the frozen protocol.",
+    "causal_claim": false,
+    "explicit_trivector_claim": false
+  }
+}

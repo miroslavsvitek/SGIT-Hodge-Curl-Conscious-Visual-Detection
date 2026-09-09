@@ -1,0 +1,317 @@
+{
+  "experiment": "SGIT_HGFT_X2_RELATIONAL_HODGE_TRAJECTORY_DISCOVERY",
+  "version": "1.0",
+  "date_frozen": "2026-09-05",
+  "status": "EXPLORATORY_DISCOVERY_ON_ALREADY_OPENED_EXP1_BEFORE_HGFT_X2_OUTCOME",
+  "scientific_role": {
+    "confirmatory": false,
+    "reason": "Experiment-1 EEG was already opened by TC1/GFT-X1. HGFT-X2 is theory-development only.",
+    "experiment2_access": "FORBIDDEN",
+    "replication_rule": "Only a positive, pre-specified HGFT-X2 signature may license a separately frozen Experiment-2 test."
+  },
+  "parent": {
+    "GFT_X1_result_sha256": "6210788bef276294598969d338a888b457da9850d5ce88e3e4714247566d9f92",
+    "GFT_X1_status": "GFT_X1_EXPLORATORY_RELATIONAL_TRAJECTORY_NOT_DISCOVERED",
+    "n_parent_evaluable": 30
+  },
+  "dataset": {
+    "figshare_article_id": 26879077,
+    "dataset_doi": "10.17045/STHLMUNI.26879077",
+    "paper_doi": "10.1016/j.neuropsychologia.2026.109371",
+    "top_archive": "Experiment_1.zip",
+    "archive_download_url": "https://ndownloader.figshare.com/files/61809217",
+    "epoch_member_template": "MNE_VAN_K17/files/{group}/{subject}/{group}-{subject}_epo.fif",
+    "df_member_template": "MNE_VAN_K17/files/{group}/{subject}/{group}-{subject}-df_onsets.tsv",
+    "bad_member_preference": [
+      "MNE_VAN_K17/files/{group}/{subject}/{group}-{subject}-bad_trials.tsv",
+      "MNE_VAN_K17/files/{group}/{subject}/{group}-{subject}-bad_trials.txt"
+    ],
+    "frozen_candidates": [
+      {
+        "subject": "id07",
+        "group": "letter"
+      },
+      {
+        "subject": "id09",
+        "group": "digit"
+      },
+      {
+        "subject": "id10",
+        "group": "letter"
+      },
+      {
+        "subject": "id12",
+        "group": "letter"
+      },
+      {
+        "subject": "id13",
+        "group": "digit"
+      },
+      {
+        "subject": "id14",
+        "group": "digit"
+      },
+      {
+        "subject": "id15",
+        "group": "digit"
+      },
+      {
+        "subject": "id16",
+        "group": "digit"
+      },
+      {
+        "subject": "id17",
+        "group": "letter"
+      },
+      {
+        "subject": "id18",
+        "group": "letter"
+      },
+      {
+        "subject": "id20",
+        "group": "digit"
+      },
+      {
+        "subject": "id21",
+        "group": "digit"
+      },
+      {
+        "subject": "id22",
+        "group": "digit"
+      },
+      {
+        "subject": "id23",
+        "group": "letter"
+      },
+      {
+        "subject": "id24",
+        "group": "digit"
+      },
+      {
+        "subject": "id25",
+        "group": "letter"
+      },
+      {
+        "subject": "id26",
+        "group": "letter"
+      },
+      {
+        "subject": "id27",
+        "group": "letter"
+      },
+      {
+        "subject": "id28",
+        "group": "digit"
+      },
+      {
+        "subject": "id29",
+        "group": "letter"
+      },
+      {
+        "subject": "id30",
+        "group": "digit"
+      },
+      {
+        "subject": "id31",
+        "group": "letter"
+      },
+      {
+        "subject": "id32",
+        "group": "digit"
+      },
+      {
+        "subject": "id33",
+        "group": "digit"
+      },
+      {
+        "subject": "id34",
+        "group": "letter"
+      },
+      {
+        "subject": "id35",
+        "group": "digit"
+      },
+      {
+        "subject": "id36",
+        "group": "letter"
+      },
+      {
+        "subject": "id37",
+        "group": "letter"
+      },
+      {
+        "subject": "id38",
+        "group": "letter"
+      },
+      {
+        "subject": "id39",
+        "group": "digit"
+      }
+    ],
+    "n_candidates": 30,
+    "experiment2_access": "FORBIDDEN",
+    "raw_BDF_fallback": "FORBIDDEN"
+  },
+  "behavior": {
+    "condition_column": "cond",
+    "detection_token": "detect",
+    "response_column": "respsubjnum",
+    "physical_level_column": "stimlevel",
+    "UNSEEN": "Nothing",
+    "SEEN": "Something",
+    "other_detection_responses": [
+      "Identify",
+      "Clear"
+    ],
+    "detection_aware_rule": "response != Nothing",
+    "chunk_length_detection_trials": 16,
+    "valid_aware_min": 6,
+    "valid_aware_max": 10,
+    "chunk_definition": "consecutive detection trials before official bad-EEG exclusion",
+    "official_bad_trial_exclusion": "after chunk validity is defined",
+    "minimum_primary_trials_per_label_after_modal_QC": 25,
+    "minimum_evaluable_subjects": 24
+  },
+  "sensor_complex": {
+    "channel_source": "all EEG channels with valid sensor positions; standard_1020 fallback by channel name",
+    "minimum_graph_channels": 48,
+    "sensor_graph": "symmetric weighted 6-nearest-neighbor graph",
+    "edge_orientation": "node-index ascending i<j",
+    "triangle_rule": "every 3-clique of the undirected 6NN graph is a 2-simplex",
+    "triangle_orientation": "ascending i<j<k with boundary [j,k]-[i,k]+[i,j]",
+    "connectivity_required": true,
+    "minimum_triangles": 20,
+    "boundary_identity_required": "||B1 @ B2||_max < 1e-10"
+  },
+  "relational_edge_signal": {
+    "name": "normalized antisymmetric lag flow",
+    "lag_samples": 1,
+    "lag_ms_at_256Hz": 3.90625,
+    "formula": "f_ij(t) = [x_i(t-lag)x_j(t)-x_j(t-lag)x_i(t)] / [sqrt((x_i(t-lag)^2+x_i(t)^2)(x_j(t-lag)^2+x_j(t)^2))+eps]",
+    "orientation": "positive sign follows frozen edge orientation i<j",
+    "properties": [
+      "antisymmetric under edge reversal",
+      "chronology-sensitive",
+      "bounded up to numerical epsilon",
+      "invariant to independent positive amplitude scaling of either node over the two-sample pair"
+    ],
+    "purpose": "time-resolved directed relational flow before Hodge spectral analysis"
+  },
+  "hodge_gft": {
+    "B1": "node-edge incidence",
+    "B2": "edge-triangle incidence",
+    "gradient_operator": "L_grad = B1^T B1",
+    "curl_operator": "L_curl = B2 B2^T",
+    "hodge_1_laplacian": "L1 = L_grad + L_curl",
+    "gradient_basis": "positive-eigenvalue eigenvectors of L_grad",
+    "curl_basis": "positive-eigenvalue eigenvectors of L_curl",
+    "harmonic_dimension": "E - rank(B1) - rank(B2)",
+    "eigenvector_sign_rule": "largest-absolute loading forced positive",
+    "selected_curl_modes": 12,
+    "selected_gradient_modes": 12,
+    "mode_selection": "evenly spaced positive-eigenvalue ranks within each subspace",
+    "primary_subspace": "curl",
+    "specificity_control_subspace": "gradient"
+  },
+  "preprocessing": {
+    "source": "official preprocessed K17 epoch FIF",
+    "expected_sfreq_hz": 256.0,
+    "required_tmin_max": -0.09,
+    "required_tmax_min": 0.56,
+    "no_additional_filtering": true,
+    "no_additional_rereference": true,
+    "baseline_standardization": {
+      "window_s": [
+        -0.09,
+        0.0
+      ],
+      "fit": "within subject, all retained valid detection trials, label-blind",
+      "operation": "per sensor: baseline mean/SD over trials and baseline time samples"
+    },
+    "nuisance_residualization": {
+      "label_blind": true,
+      "fit_trials": "all retained valid detection trials including Identify/Clear",
+      "design": [
+        "intercept",
+        "valid-chunk-centered stimlevel",
+        "stimitem categorical one-hot if >=2 levels",
+        "objective correctness if uniquely source-resolvable"
+      ],
+      "operation": "for each sensor x time sample, regress trial amplitudes on nuisance design and keep residuals"
+    }
+  },
+  "trajectory": {
+    "windows_s": {
+      "W1": [
+        0.08,
+        0.24
+      ],
+      "W2": [
+        0.24,
+        0.4
+      ],
+      "W3": [
+        0.4,
+        0.56
+      ]
+    },
+    "primary_curl_spectrum": "For each condition/window, mean squared coefficients of the 12 selected curl Hodge-GFT modes across retained primary trials and time samples.",
+    "normalization": "divide selected-mode energies by their sum; take sqrt(probability) for Hellinger geometry",
+    "trajectory_vector": "concatenate W1/W2/W3 sqrt-normalized curl spectra and unit-L2 normalize",
+    "gradient_control": "same construction in the 12 selected gradient modes",
+    "secondary_curl_fraction": "mean total curl-subspace energy / (gradient + curl + harmonic energy) over condition/window"
+  },
+  "primary_discovery_test": {
+    "conditions": {
+      "UNSEEN": "detect/Nothing",
+      "SEEN": "detect/Something"
+    },
+    "LOSO_template_score": "Same symmetric two-condition LOSO cosine-template score used in GFT-X1, but applied to the Hodge-curl spectral trajectory.",
+    "group_statistic": "median subject curl-template score",
+    "permutation": "9999 within-subject swaps of UNSEEN/SEEN condition trajectory vectors",
+    "permutation_draws": 9999,
+    "seed": 90520270,
+    "one_sided_alpha": 0.025,
+    "candidate_signature_rule": [
+      "N_evaluable >= 24",
+      "median curl-template score > 0",
+      "subject-swap permutation p <= 0.025"
+    ],
+    "specificity_expectation": "gradient control is reported but is not part of the primary support gate",
+    "secondary": [
+      "exact one-sided sign test on curl-template scores",
+      "gradient-template score and swap p",
+      "curl fraction by condition/window",
+      "consensus SEEN-minus-UNSEEN Hodge-curl spectral difference",
+      "top selected curl modes by absolute consensus difference",
+      "harmonic dimension and graph simplicial-complex diagnostics"
+    ],
+    "interpretation_if_positive": "Exploratory evidence that awareness is associated with a reproducible temporal redistribution of recurrent/circulatory relational flow across Hodge-curl modes. Freeze exact signature before Experiment 2.",
+    "interpretation_if_negative": "Close this exact normalized lag-flow + 6NN clique-complex + 12-curl-mode trajectory formulation on Experiment 1."
+  },
+  "synthetic_sanity": {
+    "run_before_human": true,
+    "seed": 90520271,
+    "requirements": {
+      "curl_topology_difference_median_score_min": 0.25,
+      "curl_magnitude_only_abs_median_score_max": 0.1,
+      "gradient_only_curl_abs_median_score_max": 0.1,
+      "gradient_only_gradient_median_score_min": 0.2
+    }
+  },
+  "runtime": {
+    "max_workers": 1,
+    "blas_threads": 2,
+    "reuse_existing_epoch_cache": true,
+    "selective_HTTP_range_members_only": true,
+    "never_download_full_archive": true,
+    "persistent_cache_roots": [
+      "C:\\SGIT_POP_V2\\TC1_WIENS2026_CACHE",
+      "D:\\SGIT\\TC1_WIENS2026_CACHE",
+      "E:\\SGIT\\TC1_WIENS2026_CACHE"
+    ],
+    "no_psychopy": true,
+    "no_fullscreen": true,
+    "no_new_data_collection": true
+  }
+}
