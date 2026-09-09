@@ -1,0 +1,39 @@
+{
+  "creators": [
+    {
+      "name": "Svítek, Miroslav",
+      "affiliation": "Czech Institute of Informatics, Robotics and Cybernetics at Czech Technical University in Prague; Faculty of Natural Sciences, Matej Bel University",
+      "type": "Researcher"
+    }
+  ],
+  "title": "Reproducible Hodge-Curl Relational Geometry of Conscious Visual Detection",
+  "version": "0.6",
+  "access_right": "open",
+  "keywords": [
+    "consciousness",
+    "visual awareness",
+    "EEG",
+    "Hodge Laplacian",
+    "Hodge-GFT",
+    "simplicial complex",
+    "Spatiotemporal Geometric Information Theory",
+    "SGIT",
+    "relational geometry",
+    "geometric algebra"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "software",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.17045/STHLMUNI.26879077",
+      "relation": "requires",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/10.17045/STHLMUNI.5418967",
+      "relation": "requires",
+      "resource_type": "dataset"
+    }
+  ]
+}
