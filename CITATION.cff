@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived repository release and the associated manuscript."
+title: "Reproducible Hodge-Curl Relational Geometry of Conscious Visual Detection"
+type: software
+authors:
+  - family-names: "Svítek"
+    given-names: "Miroslav"
+    affiliation: "Czech Institute of Informatics, Robotics and Cybernetics at Czech Technical University in Prague; Faculty of Natural Sciences, Matej Bel University"
+version: "0.6"
+date-released: 2026-09-09
+keywords:
+  - consciousness
+  - visual awareness
+  - EEG
+  - Hodge Laplacian
+  - Hodge-GFT
+  - simplicial complex
+  - SGIT
+  - relational geometry
+  - geometric algebra
+license: CC-BY-4.0
